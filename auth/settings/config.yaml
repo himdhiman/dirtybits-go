@@ -1,0 +1,12 @@
+applicationName: "dirtybits"
+serviceName: "auth"
+environemnt: "dev"
+version: 1
+port: 8080
+
+handlers:
+  - endpoint: "/ping"
+    handler: "PingHandler"
+    httpMethod: "GET"
+
+database:
